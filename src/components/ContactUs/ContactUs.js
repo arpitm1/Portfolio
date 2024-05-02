@@ -16,7 +16,8 @@ function ContactUs() {
                     collaboration.
                     <br />
                     <strong>Feel free to connect with me</strong>
-                    <p>+91 8887740341</p>
+                    <br></br>
+                    +91 8887740341
                   </p>
                   <SocialMedia />
                 </Col>

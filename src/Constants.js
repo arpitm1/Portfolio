@@ -26,17 +26,3 @@ export const PROJECTS = [
     url: "https://github.com/arpitm1/Mindscape-Quiz-Game",
   },
 ];
-
-export const SKILLS = [
-  { name: "ReactJs", initialRating: 4 },
-  { name: "JavaScript", initialRating: 3 },
-  { name: "Html", initialRating: 4 },
-  { name: "CSS", initialRating: 4 },
-  { name: "Java", initialRating: 4 },
-  { name: "C", initialRating: 4 },
-  { name: "MySql", initialRating: 4 },
-  { name: "BootStrap", initialRating: 4 },
-  { name: "Git", initialRating: 3 },
-];
-
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Sublime Text", "IntelliJ IDEA"]

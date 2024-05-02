@@ -7,6 +7,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillPhone
 } from "react-icons/ai";
 
 import { MdDeveloperMode } from "react-icons/md";
@@ -104,7 +105,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact Us
+                <AiFillPhone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
