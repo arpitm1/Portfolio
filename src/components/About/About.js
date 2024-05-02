@@ -1,9 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import developer from "../../Assets/developer.jpg";
-import Rating from "react-rating"
+import { 
+  FaReact,
+  FaJsSquare,
+  FaJava,
+  FaHtml5,
+  FaCss3Alt,
+  FaCuttlefish,
+  FaDatabase,
+  FaGithub
+ } from "react-icons/fa";
+
 
 function About() {
   return (
@@ -34,106 +43,42 @@ function About() {
             </h1>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                ReactJs
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaReact style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> ReactJs
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                JavaScript
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='3'
-                />
+              <FaJsSquare style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> JavaScript
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                HTML
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaHtml5 style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> HTML
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                CSS
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaCss3Alt style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> CSS
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                Java
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaJava style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> Java
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                C
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaCuttlefish style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> C
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                MySql
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaDatabase style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> MySql
               </Col>
              </Row>
              <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
               <Col className="skill-name" xs={4}>
-                Git
-              </Col>
-              <Col xs={6}>
-                <Rating
-                  readonly
-                  start={0}
-                  stop={5}
-                  initialRating='4'
-                />
+              <FaGithub style={{ marginBottom: "2px", marginRight:"6px"}} size={"40"} /> Git
               </Col>
              </Row>
           </Col>
